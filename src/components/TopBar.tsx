@@ -46,12 +46,12 @@ const StyledNavLink = styled(NavLink)`
     transition: background-color 0.3s;
 
     &.active {
-        background-color: rgb(196, 5, 5);;
+        background-color: rgb(196, 5, 5);
     }
 
     &:hover {
         color: #363636!important;
-        background-color: rgb(196, 5, 5);;
+        background-color: rgb(196, 5, 5);
     }
 
     &:visited {
