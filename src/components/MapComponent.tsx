@@ -210,7 +210,7 @@ const MapComponent = () => {
                 layers={layers}
                 onToggleLayer={toggleLayerVisibility}
             />
-            <OpacityButton title="Zmień widoczność warstw" onClick={() => setIsOpacityPanelOpen(!isOpacityPanelOpen)}>
+            <OpacityButton title="Change layers opacity" onClick={() => setIsOpacityPanelOpen(!isOpacityPanelOpen)}>
                 {isOpacityPanelOpen ? 'x' : 'o'}
             </OpacityButton>
             {isOpacityPanelOpen && (
