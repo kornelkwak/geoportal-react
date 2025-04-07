@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
-import "../utils/potree/build/potree/potree.css"
-import "../utils/potree/libs/jquery-ui/jquery-ui.min.css";
-import "../utils/potree/libs/openlayers3/ol.css";
-import "../utils/potree/libs/spectrum/spectrum.css";
-import "../utils/potree/libs/jstree/themes/mixed/style.css";
+import "public/potree/build/potree/potree.css"
+import "public/potree/libs/jquery-ui/jquery-ui.min.css";
+import "public/potree/libs/openlayers3/ol.css";
+import "public/potree/libs/spectrum/spectrum.css";
+import "public/potree/libs/jstree/themes/mixed/style.css";
 import POINT_CLOUD_CONFIG from "../constants/pointCloudConfig";
 
 /**
