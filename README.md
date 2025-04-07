@@ -1,5 +1,7 @@
 # Geoportal React
 
+Project live: https://geoportal-kk.netlify.app/
+
 A modern web-based geoportal application built with React and Vite that allows visualization and interaction with geospatial data.
 
 ## Technologies Used
