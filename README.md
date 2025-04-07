@@ -25,7 +25,7 @@ Map data hosted on Firebase
 
 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/geoportal-react.git
+git clone https://github.com/kornelkwak/geoportal-react.git
 cd geoportal-react
 ```
 
@@ -89,8 +89,6 @@ The application can be configured through various configuration files:
 
 ## License
 
-[Add your license here]
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
 
-## Contributing
-
-[Add contributing guidelines]
+All rights reserved. You may not copy, modify, or use the content of this project for commercial purposes without the author's consent. The project may only be used for non-commercial purposes.
