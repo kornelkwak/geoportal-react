@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
-import "public/potree/build/potree/potree.css"
-import "public/potree/libs/jquery-ui/jquery-ui.min.css";
-import "public/potree/libs/openlayers3/ol.css";
-import "public/potree/libs/spectrum/spectrum.css";
-import "public/potree/libs/jstree/themes/mixed/style.css";
+import "/public/potree/build/potree/potree.css";
+import "/public/potree/libs/jquery-ui/jquery-ui.min.css";
+import "/public/potree/libs/openlayers3/ol.css";
+import "/public/potree/libs/spectrum/spectrum.css";
+import "/public/potree/libs/jstree/themes/mixed/style.css";
 import POINT_CLOUD_CONFIG from "../constants/pointCloudConfig";
 
 /**
@@ -17,19 +17,19 @@ const PotreeViewer = () => {
     const loadPotree = async () => {
       if (!window.Potree) {
         const scripts = [
-          "public/potree/libs/jquery/jquery-3.1.1.js",
-          "public/potree/libs/spectrum/spectrum.js",
-          "public/potree/libs/jquery-ui/jquery-ui.min.js",
-          "public/potree/libs/other/BinaryHeap.js",
-          "public/potree/libs/tween/tween.min.js",
-          "public/potree/libs/d3/d3.js",
-          "public/potree/libs/proj4/proj4.js",
-          "public/potree/libs/openlayers3/ol.js",
-          "public/potree/libs/i18next/i18next.js",
-          "public/potree/libs/jstree/jstree.js",
-          "public/potree/libs/copc/index.js",
-          "public/potree/build/potree/potree.js",
-          "public/potree/libs/plasio/js/laslaz.js",
+          "/potree/libs/jquery/jquery-3.1.1.js",
+          "/potree/libs/spectrum/spectrum.js",
+          "/potree/libs/jquery-ui/jquery-ui.min.js",
+          "/potree/libs/other/BinaryHeap.js",
+          "/potree/libs/tween/tween.min.js",
+          "/potree/libs/d3/d3.js",
+          "/potree/libs/proj4/proj4.js",
+          "/potree/libs/openlayers3/ol.js",
+          "/potree/libs/i18next/i18next.js",
+          "/potree/libs/jstree/jstree.js",
+          "/potree/libs/copc/index.js",
+          "/potree/build/potree/potree.js",
+          "/potree/libs/plasio/js/laslaz.js",
         ];
 
         for (const src of scripts) {
