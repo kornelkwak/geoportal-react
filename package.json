@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "copy-potree": "cp -r src/utils/potree dist/utils/",
-    "build": "vite build && npm run copy-potree",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest"

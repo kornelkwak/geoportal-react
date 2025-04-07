@@ -17,16 +17,19 @@ const PotreeViewer = () => {
     const loadPotree = async () => {
       if (!window.Potree) {
         const scripts = [
-          "/utils/potree/libs/other/BinaryHeap.js",
-  "/utils/potree/libs/tween/tween.min.js",
-  "/utils/potree/libs/d3/d3.js",
-  "/utils/potree/libs/proj4/proj4.js", 
-  "/utils/potree/libs/openlayers3/ol.js",
-  "/utils/potree/libs/i18next/i18next.js",
-  "/utils/potree/libs/jstree/jstree.js",
-  "/utils/potree/libs/copc/index.js",
-  "/utils/potree/build/potree/potree.js",
-  "/utils/potree/libs/plasio/js/laslaz.js"
+          "public/potree/libs/jquery/jquery-3.1.1.js",
+          "public/potree/libs/spectrum/spectrum.js",
+          "public/potree/libs/jquery-ui/jquery-ui.min.js",
+          "public/potree/libs/other/BinaryHeap.js",
+          "public/potree/libs/tween/tween.min.js",
+          "public/potree/libs/d3/d3.js",
+          "public/potree/libs/proj4/proj4.js",
+          "public/potree/libs/openlayers3/ol.js",
+          "public/potree/libs/i18next/i18next.js",
+          "public/potree/libs/jstree/jstree.js",
+          "public/potree/libs/copc/index.js",
+          "public/potree/build/potree/potree.js",
+          "public/potree/libs/plasio/js/laslaz.js",
         ];
 
         for (const src of scripts) {
