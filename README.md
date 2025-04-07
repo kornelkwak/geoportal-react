@@ -19,7 +19,7 @@ Map data hosted on Firebase
 ## Prerequisites
 
 - Node.js (v14 or higher)
-- pnpm
+- npm
 
 ## Installation
 
@@ -31,7 +31,7 @@ cd geoportal-react
 
 2. Install dependencies:
 ```sh
-pnpm install
+npm install
 ```
 
 ## Development
@@ -39,7 +39,7 @@ pnpm install
 To start the development server:
 
 ```sh
-pnpm dev
+npm run dev
 ```
 
 This will start the Vite development server with hot module replacement (HMR).
@@ -49,7 +49,7 @@ This will start the Vite development server with hot module replacement (HMR).
 To create a production build:
 
 ```sh
-pnpm build
+npm run build
 ```
 
 The built files will be in the `dist` directory.
