@@ -75,7 +75,7 @@ const CoordinateDisplay: React.FC<CoordinateDisplayProps> = ({ map }) => {
     }, [map, handleMouseMove]);
 
     const formatCoordinate = (coord: Coordinate | null) => {
-        if (!coord) return 'Najedź kursorem na mapę';
+        if (!coord) return 'Move cursor on map';
 
         switch (coordinateSystem) {
             case 'EPSG:4326':
@@ -90,7 +90,7 @@ const CoordinateDisplay: React.FC<CoordinateDisplayProps> = ({ map }) => {
                 const transformedHDMS = transform(coord, 'EPSG:3857', 'EPSG:4326');
                 return toStringHDMS(transformedHDMS);
             default:
-                return 'Nieznany układ współrzędnych';
+                return 'Unknown coordinate system';
         }
     };
 
